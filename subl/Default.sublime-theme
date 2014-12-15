@@ -1,0 +1,45 @@
+[
+    {
+        "class": "sidebar_container",
+        "layer0.tint": [27, 27, 27],
+        "layer0.opacity": 1.0,
+        "layer0.draw_center": false,
+        "layer0.inner_margin": [0, 0, 1, 0],
+        "content_margin": [0, 0, 1, 0]
+    },
+    {
+        "class": "sidebar_tree",
+        "row_padding": [8, 3],
+        "indent": 15,
+        "indent_offset": 17,
+        "indent_top_level": false,
+        "layer0.tint": [27, 27, 27],
+        "layer0.opacity": 1.,
+        "dark_content": false
+    },
+    {
+        "class": "sidebar_heading",
+        "color": [85, 85, 85],
+        "font.bold": false,
+        "shadow_color": [27, 27, 27],
+        "shadow_offset": [0, 1]
+    },
+    {
+        "class": "sidebar_heading",
+        "parents":
+        [
+            { "class": "tree_row", "attributes": ["selected"] }
+        ],
+        "shadow_color": [160, 174, 192]
+    },
+    {
+        "class": "sidebar_label",
+        "color": [110, 110, 110],
+        "font.bold": false
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "color": [27, 27, 27]
+    }
+]

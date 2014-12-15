@@ -1,0 +1,5 @@
+{
+    "enable_highlight": true,
+    "enabled_extensions": "github",
+    "github_mode": "gfm",
+}

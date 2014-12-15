@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#
+# Use sublimerge for a three-way merge
+#
+# Usage: subl_diff <THEIRS> <BASE> <MINE> <MERGED>
+#
+
+/usr/local/bin/subl -n --wait "$1" "$2" "$3" "$4" --command "sublimerge_diff_views"

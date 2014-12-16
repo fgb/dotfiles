@@ -1,5 +1,15 @@
-- clean: ['~', '~/Library/Application Support/Sublime Text 3/Packages/']
+- clean: [ '~',
+           '~/Library/Application Support/Sublime Text 3/Packages',
+           '/usr/local/bin' ]
 - link:
     ~/.dotfiles: ''
     ~/.bash_profile: bash_profile
     ~/Library/Application Support/Sublime Text 3/Packages/User: subl/
+    /usr/local/bin/git-remote-hg: git/git-remote-hg/git-remote-hg
+- shell:
+  -
+    - git submodule update --init --recursive
+    - installing / updating submodules
+  -
+    - chmod +x /usr/local/bin/git-remote-hg
+    - make git-remote-hg executable

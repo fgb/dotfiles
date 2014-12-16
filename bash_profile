@@ -42,7 +42,6 @@ alias moxa='telnet 192.168.48.83 4001'
 # update
 alias upbrew='brew update && brew upgrade'
 alias uppip="pip install --upgrade \`pip list | awk '{print \$1}'\`"
-alias upgit='wget https://raw.githubusercontent.com/felipec/git-remote-hg/master/git-remote-hg -O ~/.dotfiles/bin/git-remote-hg && chmod +x ~/.dotfiles/bin/git-remote-hg'
 alias upgem='gem update'
 alias upbundle='bundle update'
 

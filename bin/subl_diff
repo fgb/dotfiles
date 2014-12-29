@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-#
-# Use sublimerge to compare two files
-#
-# Usage: subl_diff <LEFT> <RIGHT>
-#
-
-/usr/local/bin/subl -n --wait "$1" "$2" --command "sublimerge_diff_views"

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #
-# Use sublimerge to compare two directories
+# Use sublimerge to compare two files or folders
 #
-# Usage: subl_diff <LEFT> <RIGHT>
+# Usage: sublimerge <LEFT> <RIGHT>
 #
 
 /usr/local/bin/subl --command "sublimerge_diff {\"left\": \"$1\", \"right\": \"$2\"}"

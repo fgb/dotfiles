@@ -1,3 +1,4 @@
 Package Control.cache
 Package Control.last-run
-Package Control.system-ca-bundle
+Package Control.*ca-bundle
+encoding_cache.json

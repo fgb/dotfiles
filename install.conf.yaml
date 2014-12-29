@@ -4,6 +4,8 @@
 - link:
     ~/.dotfiles: ''
     ~/.bash_profile: bash_profile
+    ~/.gitconfig: git/gitconfig
+    ~/.gitignore_global: git/gitignore_global
     ~/Library/Application Support/Sublime Text 3/Packages/User: subl/
     /usr/local/bin/git-remote-hg: git/git-remote-hg/git-remote-hg
 - shell:

@@ -1,0 +1,7 @@
+# editor temporary files & sessions
+*.sw*
+*.latexmain
+
+# os generated files
+*~
+*.DS_Store*

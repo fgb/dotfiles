@@ -40,7 +40,7 @@ alias gen='fmk && cd code/release/CodeGen/JSON/WebAPI/'
 alias moxa='telnet 192.168.48.83 4001'
 
 # update
-alias upbrew='brew update && brew upgrade'
+alias upbrew='brew update && brew upgrade && brew cleanup && brew cask cleanup && brew prune'
 alias uppip="pip install --upgrade \`pip list | awk '{print \$1}'\`"
 alias upgem='gem update'
 alias upbundle='bundle update'

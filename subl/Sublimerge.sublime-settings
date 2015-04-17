@@ -1,4 +1,6 @@
 {
+  "ignore_whitespace": true,
   "intraline_analysis_full_text": true,
+  "full_screen": true,
   "toggle_side_bar": false
 }

@@ -18,3 +18,5 @@
   trustExitCode = false
 [include]
   path = ~/.gitconfig_local # defines user.name/email and any other local config
+[push]
+	default = simple

@@ -41,7 +41,7 @@ alias moxa='telnet 192.168.48.83 4001'
 
 # update
 alias upbrew='brew update && brew upgrade --all && brew cleanup && brew cask cleanup && brew prune'
-alias uppip="pip install --upgrade \`pip list | awk '{print \$1}'\`"
+alias uppip="pip install --upgrade pip && pip install --upgrade \`pip list | awk '{print \$1}'\`"
 alias upgem='gem update'
 alias upbundle='bundle update'
 

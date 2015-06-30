@@ -1,4 +1,5 @@
 [
+  { "keys": ["super+t"], "command": "new_file" },
   { "keys": [ "super+v" ], "command": "paste_and_indent" },
   { "keys": [ "super+shift+v" ], "command": "paste" },
   { "keys": [ "ctrl+shift+space" ], "command": "auto_complete" },

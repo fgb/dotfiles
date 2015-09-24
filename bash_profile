@@ -37,7 +37,8 @@ alias blender='~/Applications/media/Blender.app/Contents/MacOS/blender'
 # work
 alias fmk='src && cd fmk/'
 alias gen='fmk && cd code/release/CodeGen/JSON/WebAPI/'
-alias moxa='telnet 192.168.48.83 4001'
+alias wmoxa='telnet 192.168.48.83 4001'  # work
+alias hmoxa='telnet 192.168.200.83 4001' # home
 
 # update
 alias upbrew='brew update && brew upgrade --all && brew cleanup && brew cask cleanup && brew prune'

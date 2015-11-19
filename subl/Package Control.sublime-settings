@@ -5,6 +5,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"AlignTab",
 		"All Autocomplete",
 		"BracketGuard",
 		"Codecs33",
@@ -20,6 +21,7 @@
 		"LaTeXTools",
 		"LineEndings",
 		"Markdown Preview",
+		"More Layouts",
 		"Origami",
 		"Package Control",
 		"Pretty JSON",

@@ -7,5 +7,6 @@
       "characters": ".:>",
       "selector": "source.c++ - string - comment - constant.numeric"
     }
-  ]
+  ],
+  "hide_default_completions": true
 }

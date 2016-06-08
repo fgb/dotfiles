@@ -1,5 +1,7 @@
 {
-  "auto_complete_triggers":
+  "std_flag" : "-std=c++03",
+  "auto_set_sublime_triggers" : false,
+  "auto_complete_triggers" :
   [
     {
       "characters": ".:>",

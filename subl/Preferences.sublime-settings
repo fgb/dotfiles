@@ -1,5 +1,7 @@
 {
-	"margin": 0,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_cycle": true,
+	"auto_complete_with_fields": true,
 	"caret_style": "wide",
 	"color_scheme": "Packages/Desert Night Color Scheme/desert_night.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
@@ -8,7 +10,6 @@
 	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"show_tab_close_buttons": false,
 	"indent_guide_options":
 	[
 		"draw_normal",
@@ -17,6 +18,7 @@
 	"indent_to_bracket": true,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+	"margin": 0,
 	"open_files_in_new_window": false,
 	"rulers":
 	[
@@ -24,13 +26,11 @@
 		72
 	],
 	"show_line_endings": true,
+	"show_tab_close_buttons": false,
+	"tab_completion": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
-	"word_wrap": false,
-	"tab_completion": false,
-	"auto_complete_commit_on_tab": true,
-	"auto_complete_with_fields": true,
-	"auto_complete_cycle": true,
+	"word_wrap": false
 }

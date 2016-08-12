@@ -2,3 +2,5 @@
 Package Control.last-run
 Package Control.*ca-bundle
 Sublimerge.sublime-license
+Sublimerge Macros.sublime-commands
+Sublimerge*.tmTheme

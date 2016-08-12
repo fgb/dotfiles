@@ -30,8 +30,6 @@
 	<false/>
 	<key>CopySelection</key>
 	<false/>
-	<key>Default Bookmark Guid</key>
-	<string>234711E1-02DD-4C54-BE07-09FAF4D55351</string>
 	<key>DimBackgroundWindows</key>
 	<false/>
 	<key>DimInactiveSplitPanes</key>
@@ -66,8 +64,6 @@
 	<true/>
 	<key>HighlightTabLabels</key>
 	<true/>
-	<key>HotKeyBookmark</key>
-	<string>234711E1-02DD-4C54-BE07-09FAF4D55351</string>
 	<key>HotKeyTogglesWindow</key>
 	<true/>
 	<key>Hotkey</key>
@@ -90,8 +86,14 @@
 	<true/>
 	<key>MaxVertically</key>
 	<false/>
-	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents</string>
+	<key>NSColorPanelMode</key>
+	<string>6</string>
+	<key>NSColorPanelVisibleSwatchRows</key>
+	<integer>1</integer>
+	<key>NSFontPanelAttributes</key>
+	<string>1, 0</string>
+	<key>NSFontPanelPreviewHeight</key>
+	<real>0.0</real>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -104,19 +106,6 @@
 	<false/>
 	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
-	<key>NSTableView Columns KeyBingingTable</key>
-	<array>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATCG
-		</data>
-		<string>198</string>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATGG
-		</data>
-		<string>322</string>
-	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
@@ -126,14 +115,6 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
-	<key>NSWindow Frame NSFontPanel</key>
-	<string>476 66 445 103 0 0 1440 877 </string>
-	<key>NSWindow Frame Preferences</key>
-	<string>110 396 606 456 0 0 1440 877 </string>
-	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
-	<string>2412 933 616 174 1440 0 2560 1417 </string>
-	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1050 877 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -887,14 +868,6 @@
 	</array>
 	<key>NoSyncConfirmBeta</key>
 	<true/>
-	<key>NoSyncHaveShownPromoWithId_4</key>
-	<true/>
-	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
-	<true/>
-	<key>NoSyncInstallationId</key>
-	<string>49DBD1F0-E565-41A9-A49E-9FF6F539B60E</string>
-	<key>NoSyncLastTipTime</key>
-	<real>488913819.57009798</real>
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
@@ -903,31 +876,8 @@
 	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
-	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>486593989.75223202</real>
-	<key>NoSyncTimeOfLastPromo</key>
-	<real>478055137.96166402</real>
-	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>486517160.65780097</real>
 	<key>NoSyncTipsDisabled</key>
 	<true/>
-	<key>NoSyncTipsToNotShow</key>
-	<array>
-		<string>000</string>
-		<string>0000</string>
-		<string>0001</string>
-		<string>0002</string>
-		<string>0003</string>
-		<string>0004</string>
-		<string>0005</string>
-		<string>0006</string>
-		<string>0007</string>
-		<string>0008</string>
-		<string>0009</string>
-		<string>0010</string>
-		<string>0011</string>
-		<string>0012</string>
-	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -993,12 +943,8 @@
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
-	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing3.xml?shard=9</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
-	<key>SULastCheckTime</key>
-	<date>2016-08-11T16:28:40Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -1040,7 +986,7 @@
 	<key>UseLionStyleFullscreen</key>
 	<true/>
 	<key>WebKitDefaultFontSize</key>
-	<integer>11</integer>
+	<integer>12</integer>
 	<key>WebKitStandardFont</key>
 	<string>.AppleSystemUIFont</string>
 	<key>WindowNumber</key>
@@ -1050,6 +996,6 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.0.2</string>
+	<string>3.0.5</string>
 </dict>
 </plist>

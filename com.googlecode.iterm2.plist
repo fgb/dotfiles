@@ -40,6 +40,8 @@
 	<false/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>DisablePotentiallyInsecureEscapeSequences</key>
+	<true/>
 	<key>EnableRendezvous</key>
 	<false/>
 	<key>FocusFollowsMouse</key>
@@ -55,7 +57,7 @@
 	<key>HideMenuBarInFullscreen</key>
 	<true/>
 	<key>HideScrollbar</key>
-	<false/>
+	<true/>
 	<key>HideTab</key>
 	<true/>
 	<key>HideTabCloseButton</key>
@@ -127,9 +129,11 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>476 66 445 103 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>212 495 606 456 0 0 1920 1177 </string>
+	<string>110 396 606 456 0 0 1440 877 </string>
+	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
+	<string>2412 933 616 174 1440 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 453 1920 724 0 0 1920 1177 </string>
+	<string>0 0 1050 877 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -366,7 +370,7 @@
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Disable Printing</key>
-			<false/>
+			<true/>
 			<key>Disable Smcup Rmcup</key>
 			<false/>
 			<key>Disable Window Resizing</key>
@@ -704,7 +708,7 @@
 			<key>Normal Font</key>
 			<string>SourceCodePro-Light 14</string>
 			<key>Only The Default BG Color Uses Transparency</key>
-			<false/>
+			<true/>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -850,7 +854,7 @@
 				</dict>
 			</array>
 			<key>Space</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -876,18 +880,28 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>2</integer>
+			<integer>6</integer>
 			<key>Working Directory</key>
 			<string>/Users/fgb</string>
 		</dict>
 	</array>
+	<key>NoSyncConfirmBeta</key>
+	<true/>
 	<key>NoSyncHaveShownPromoWithId_4</key>
 	<true/>
 	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>49DBD1F0-E565-41A9-A49E-9FF6F539B60E</string>
+	<key>NoSyncLastTipTime</key>
+	<real>488913819.57009798</real>
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>486593989.75223202</real>
@@ -895,6 +909,25 @@
 	<real>478055137.96166402</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
 	<real>486517160.65780097</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -961,11 +994,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml?shard=9</string>
+	<string>https://iterm2.com/appcasts/testing3.xml?shard=9</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-06-03T21:35:17Z</date>
+	<date>2016-08-11T16:28:40Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -1017,6 +1050,6 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.0.1</string>
+	<string>3.0.2</string>
 </dict>
 </plist>

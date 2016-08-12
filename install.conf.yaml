@@ -1,6 +1,7 @@
 - clean: [ '~',
            '~/.config',
            '~/Library/Application Support/Sublime Text 3/Packages',
+           '~/Library/Application Support',
            '/usr/local/bin' ]
 - link:
     ~/.dotfiles: ''
@@ -9,6 +10,7 @@
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/Library/Application Support/Sublime Text 3/Packages/User: subl/
+    ~/Library/Application Support/Unison: unison/
     /usr/local/bin/git-remote-hg: git/git-remote-hg/git-remote-hg
 - shell:
   -

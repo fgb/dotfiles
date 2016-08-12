@@ -39,6 +39,8 @@ alias fmk='src && cd fmk/'
 alias gen='fmk && cd code/release/CodeGen/JSON/WebAPI/'
 alias wmoxa='telnet 192.168.48.83 4001'  # work
 alias hmoxa='telnet 192.168.200.83 4001' # home
+alias scode='unison code'
+alias sfmk='unison fmk'
 
 # update
 alias upbrew='brew update && brew upgrade --all && brew cleanup && brew cask cleanup && brew prune'

@@ -1,0 +1,8 @@
+path = admin
+path = build
+path = code
+path = customerApps
+path = product
+path = test
+
+include common

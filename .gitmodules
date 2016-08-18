@@ -3,4 +3,4 @@
 	url = https://github.com/anishathalye/dotbot
 [submodule "git/git-remote-hg"]
 	path = git/git-remote-hg
-	url = git@github.com:felipec/git-remote-hg.git
+	url = git@github.com:fgb/git-remote-hg.git

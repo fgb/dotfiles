@@ -34,6 +34,11 @@ alias pipython='clear && ipython --no-confirm-exit --deep-reload'
 alias qipython='clear && ipython qtconsole --paging=hsplit --stylesheet=~/.dotfiles/py/qtconsole_night.css --style=colorful --ConsoleWidget.font_family="Source Code Pro Light" --ConsoleWidget.font_size=12'
 alias blender='~/Applications/media/Blender.app/Contents/MacOS/blender'
 
+# git
+alias gs='clear && git status --short --branch'
+alias gd='clear && git diff --stat && git diff --color-words'
+alias ga='git commit --all --amend --reuse-message HEAD'
+
 # work
 alias fmk='src && cd fmk/'
 alias gen='fmk && cd code/release/CodeGen/JSON/WebAPI/'
@@ -43,6 +48,7 @@ alias scode='unison code'
 alias sfmk='unison fmk'
 
 # update
+alias upbash='source ~/.bash_profile'
 alias upbrew='brew update && brew upgrade --all && brew cleanup && brew cask cleanup && brew prune'
 alias uppip="pip install --upgrade pip && pip install --upgrade \`pip list | awk '{print \$1}'\`"
 alias upgem='gem update'

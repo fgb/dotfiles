@@ -1,12 +1,6 @@
 {
-  "std_flag" : "-std=c++03",
-  "auto_set_sublime_triggers" : false,
-  "auto_complete_triggers" :
-  [
-    {
-      "characters": ".:>",
-      "selector": "source.c++ - string - comment - constant.numeric"
-    }
-  ],
+  // "std_flag" : "-std=c99",
+  "std_flag_cpp" : "-std=c++03",
+  // "errors_on_save": false,
   "hide_default_completions": true
 }

@@ -42,14 +42,13 @@ alias ga='git commit --all --amend --reuse-message HEAD'
 # work
 alias fmk='src && cd fmk/'
 alias gen='fmk && cd code/release/CodeGen/JSON/WebAPI/'
-alias wmoxa='telnet 192.168.48.83 4001'  # work
-alias hmoxa='telnet 192.168.200.83 4001' # home
+alias moxa='telnet 192.168.48.83 4001'
 alias scode='unison code'
 alias sfmk='unison fmk'
 
 # update
 alias upbash='source ~/.bash_profile'
-alias upbrew='brew update && brew upgrade --all && brew cleanup && brew cask cleanup && brew prune'
+alias upbrew='brew update && brew upgrade && brew cleanup && brew cask cleanup && brew prune'
 alias uppip="pip install --upgrade pip && pip install --upgrade \`pip list | awk '{print \$1}'\`"
 alias upgem='gem update'
 alias upbundle='bundle update'

@@ -1,6 +1,4 @@
 {
-  // "std_flag" : "-std=c99",
-  "std_flag_cpp" : "-std=c++03",
-  // "errors_on_save": false,
+  "errors_on_save": false,
   "hide_default_completions": true
 }

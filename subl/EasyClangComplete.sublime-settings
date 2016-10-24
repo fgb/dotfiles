@@ -1,4 +1,3 @@
 {
-  "errors_on_save": false,
-  "hide_default_completions": true
+  "errors_on_save" : false
 }

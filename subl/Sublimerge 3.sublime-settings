@@ -1,0 +1,12 @@
+{
+  "date_format": "%Y.%m.%d %H.%M.%S",
+  "ignore_whitespace": ["begin", "middle", "end"],
+  "diff_block_changed": "#877699",
+  "diff_block_inserted": "#769976",
+  "diff_block_deleted": "#997676",
+  "diff_block_intraline_changed": "#877699",
+  "diff_block_intraline_inserted": "#769976",
+  "diff_block_intraline_deleted": "#997676",
+  "diff_block_selected": "#DDA0A0",
+  "diff_block_missing": "#607080"
+}

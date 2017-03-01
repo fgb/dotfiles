@@ -49,7 +49,7 @@ alias sfmk='unison fmk'
 # update
 alias upbash='source ~/.bash_profile'
 alias upbrew='brew update && brew upgrade && brew cleanup && brew cask cleanup && brew prune'
-alias uppip="pip install --upgrade pip && pip install --upgrade \`pip list | awk '{print \$1}'\`"
+alias uppip="pip install --upgrade pip && pip install --upgrade \`pip list --format legacy | awk '{print \$1}'\`"
 alias upgem='gem update'
 alias upbundle='bundle update'
 

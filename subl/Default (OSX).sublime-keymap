@@ -1,7 +1,8 @@
 [
-  { "keys": ["super+t"], "command": "new_file" },
+  { "keys": [ "super+t" ], "command": "new_file" },
   { "keys": [ "super+v" ], "command": "paste_and_indent" },
   { "keys": [ "super+shift+v" ], "command": "paste" },
+  { "keys": [ "alt+f" ], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
   { "keys": [ "ctrl+shift+space" ], "command": "auto_complete" },
   { "keys": [ "ctrl+shift+backquote" ], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
   { "keys": [ "super+o" ], "command": "fuzzy_start_from_file" },

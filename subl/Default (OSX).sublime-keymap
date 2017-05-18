@@ -7,5 +7,6 @@
   { "keys": [ "ctrl+shift+backquote" ], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
   { "keys": [ "super+o" ], "command": "fuzzy_start_from_file" },
   { "keys": [ "super+shift+o" ], "command": "fuzzy_bookmarks_load" },
+  { "keys": [ "super+ctrl+shift+a" ], "command": "alignment" },
   { "keys": [ "super+shift+r" ], "command": "reindent" }
 ]

@@ -29,6 +29,8 @@
 		"RawLineEdit",
 		"Smart Delete",
 		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-cppcheck",
 		"Sublimerge 3",
 		"Terminal",
 		"WordCount"

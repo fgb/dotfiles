@@ -8,5 +8,7 @@
   { "keys": [ "super+o" ], "command": "fuzzy_start_from_file" },
   { "keys": [ "super+shift+o" ], "command": "fuzzy_bookmarks_load" },
   { "keys": [ "super+ctrl+shift+a" ], "command": "alignment" },
-  { "keys": [ "super+shift+r" ], "command": "reindent" }
+  { "keys": [ "super+ctrl+r" ], "command": "reindent" },
+  { "keys": [ "super+shift+," ], "command": "open_dir", "args": {"dir": "$packages"} },
+  { "keys": [ "super+;" ], "command": "goto_selection" }
 ]

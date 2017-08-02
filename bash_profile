@@ -39,6 +39,10 @@ alias gs='clear && git status --short --branch'
 alias gd='clear && git diff --stat && git diff --color-words'
 alias ga='git commit --all --amend --reuse-message HEAD'
 
+# python
+alias python='python2'
+alias pip='pip2'
+
 # work
 alias fmk='src && cd fmk/'
 alias gen='fmk && cd code/release/CodeGen/JSON/WebAPI/'

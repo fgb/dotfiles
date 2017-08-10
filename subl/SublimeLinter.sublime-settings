@@ -9,7 +9,9 @@
         "linters": {
             "cppcheck": {
                 "@disable": false,
-                "args": ["--language=c++"],
+                "args": [
+                    "--language=c++"
+                ],
                 "enable": "style",
                 "excludes": [],
                 "std": []

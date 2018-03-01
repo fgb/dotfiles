@@ -12,6 +12,7 @@
     ~/Library/Application Support/Sublime Text 3/Packages/User: subl/
     ~/Library/Application Support/Unison: unison/
     /usr/local/bin/git-remote-hg: git/git-remote-hg/git-remote-hg
+    /usr/local/bin/git-hg-helper: git/git-remote-hg/git-hg-helper
 - shell:
   -
     - git submodule update --init --recursive

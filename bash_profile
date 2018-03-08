@@ -58,7 +58,7 @@ export PYTHONPATH="~/Research/Source/modules:$PYTHONPATH"
 
 # path to binaries
 export PATH="~/.dotfiles/bin:/usr/local/bin:${PATH}"
-launchctl setenv PATH $PATH:$(launchctl getenv PATH)
+launchctl setenv PATH "$PATH:$(launchctl getenv PATH)"
 
 # path to mplab xc16 compiler
 export PATH="$PATH:~/Applications/devel/microchip/xc16/bin"

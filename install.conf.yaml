@@ -9,6 +9,8 @@
     ~/.config/xonsh: xonsh/
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
+    ~/.hgrc: hg/hgrc
+    ~/.hgignore_global: hg/hgignore_global
     ~/Library/Application Support/Sublime Text 3/Packages/User: subl/
     ~/Library/Application Support/Unison: unison/
     /usr/local/bin/git-remote-hg: git/git-remote-hg/git-remote-hg

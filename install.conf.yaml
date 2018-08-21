@@ -1,11 +1,9 @@
 - clean: [ '~',
-           '~/.config',
            '~/Library/Application Support/Sublime Text 3/Packages',
            '~/Library/Application Support' ]
 - link:
     ~/.dotfiles: ''
     ~/.bash_profile: bash_profile
-    ~/.config/xonsh: xonsh/
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/Library/Application Support/Sublime Text 3/Packages/User: subl/

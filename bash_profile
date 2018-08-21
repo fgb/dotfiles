@@ -43,8 +43,6 @@ alias ga='git commit --all --amend --reuse-message HEAD'
 alias fmk='src && cd fmk/'
 alias gen='fmk && cd code/release/CodeGen/JSON/WebAPI/'
 alias moxa='telnet 192.168.48.83 4001'
-alias scode='unison code -batch -copyonconflict -prefer newer' # -repeat watch w/fsmonitor.py installed
-alias sfmk='unison fmk -batch -copyonconflict -prefer newer'   # -repeat watch w/fsmonitor.py installed
 
 # update
 alias upbash='source ~/.bash_profile'

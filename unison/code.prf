@@ -1,5 +1,0 @@
-path = code/release/YE
-# path = code/release
-# path = code/test
-
-include common

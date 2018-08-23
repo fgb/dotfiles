@@ -25,6 +25,8 @@ alias uppip="pip install --upgrade pip \`pip list --outdated | awk 'NR>2 {print 
 alias upgem='gem update'
 alias upbundle='bundle update'
 
+# local settings
+if [ -f ~/.dotfiles/bash/local ]; then source ~/.dotfiles/bash/local; fi
 
 # path to binaries
 export PATH="~/.dotfiles/bin:/usr/local/bin:${PATH}"

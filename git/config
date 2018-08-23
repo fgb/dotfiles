@@ -1,5 +1,5 @@
 [core]
-  excludesfile = ~/.gitignore_global
+  excludesfile = ~/.dotfiles/git/ignore_global
   autocrlf = input
   whitespace = trailing-space,space-before-tab
   filemode = false
@@ -17,6 +17,6 @@
   cmd = subl -n --wait \"$REMOTE\" \"$BASE\" \"$LOCAL\" \"$MERGED\" --command \"sublimerge_diff_views\"
   trustExitCode = false
 [include]
-  path = ~/.gitconfig_local # defines user.name/email and any other local config
+  path = ~/.dotfiles/git/config_local # defines user.name/email and any other local config
 [push]
 	default = simple

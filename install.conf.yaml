@@ -3,8 +3,7 @@
 - link:
     ~/.dotfiles: ''
     ~/.bash_profile: bash/profile
-    ~/.gitconfig: git/gitconfig
-    ~/.gitignore_global: git/gitignore_global
+    ~/.gitconfig: git/config
     ~/Library/Application Support/Sublime Text 3/Packages/User: subl/
 - shell:
   -

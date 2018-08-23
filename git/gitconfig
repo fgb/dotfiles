@@ -20,8 +20,3 @@
   path = ~/.gitconfig_local # defines user.name/email and any other local config
 [push]
 	default = simple
-[alias]
-	hg = !git-hg-helper
-[remote-hg]
-	shared-marks = true
-	fast-export-options = -M -C -C

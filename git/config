@@ -19,4 +19,4 @@
 [include]
   path = ~/.dotfiles/git/config_local # defines user.name/email and any other local config
 [push]
-	default = simple
+  default = simple
